@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <img className='imagen__portada' src="./src/imagen.jpg" alt="" />
+      <img className='imagen__portada' src="https://images8.alphacoders.com/114/1148255.jpg" alt="" />
       <form onSubmit={handleSubmit}>
         <input className='input' id='search' type="text" placeholder='Search ID' />
         <button className='btn__submit'>Search</button>
