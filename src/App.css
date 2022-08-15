@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(10, 38, 51);
+    color: white;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen__portada {
+    height: 40rem;
+    width: 100%;
+}
+
+.input {
+    padding: 1rem 6rem;
+    margin-top: 4rem;
+    text-align: left;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+}
+
+.btn__submit {
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.location__component {
+    display: flex;
+    background-color: rgb(5, 21, 28);
+    padding: 2rem 0rem;
+    margin-top: 4rem;
+}
+
+.internal {
+    margin: 0rem 4rem;
+    background-color: rgb(5, 21, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.internal h3 {
+    background-color: rgb(5, 21, 28);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.imagen__information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
+    margin-top: 2rem;
+
+}
+
+.card__information {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 21, 28);
+    width: 20rem;
+    height: 30rem;
+    text-align: center;
+}
+
+.card__information img {
+    width: 20rem;
+    height: 22rem;
+}
+
+
+.card__information h2 {
+    background-color: rgb(5, 21, 28);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card__information p {
+    background-color: rgb(5, 21, 28);
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 530px) {
+    .imagen__portada {
+        height: 15rem;
+    }
+
+    .input {
+        padding: 1rem 2rem;
+    }
+
+    .location__information {
+        width: 100%;
+    }
+
+    .internal {
+        margin: 0rem 0.5rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .internal h3 {
+        font-size: 0.8rem;
+    }
+
+    .internal p {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .location__component {
+        padding: 1rem 0rem;
+        margin-top: 4rem;
+    }
+
+    .location__component p {
+        background-color: rgb(5, 21, 28);
+    }
+
+    .card__information {
+        width: 12rem;
+        height: 25rem;
+    }
+
+    .card__information img {
+        width: 12rem;
+        height: 115rem;
+    }
+
+    .imagen__information {
+        padding: 0rem;
+    }
+
+    .input {
+        margin-top: 2rem;
+    }
+
+    .location__component {
+        margin-top: 1.5rem;
+    }
+
+}
